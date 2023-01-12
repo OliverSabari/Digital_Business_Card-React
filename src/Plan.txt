@@ -1,0 +1,18 @@
+
+
+Things to Build in business card:
+
+        1)Header
+
+            => Image
+            => Name,Role,place
+            => Social Media Platform
+
+        2)Body
+
+            => About
+            => Interests
+
+        3)Footer 
+
+            => Footer Icons for social media
