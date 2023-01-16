@@ -2,21 +2,23 @@
 import { Button } from "react-bootstrap"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
+
+import {faLinkedin , faDiscord} from "@fortawesome/free-brands-svg-icons"
+
+import profile_photo from "../image/profile_photo.jpg"
 
 const Header = () => {
     return (
       <>
                 <img
-                    src="https://source.unsplash.com/random"
+                    src={profile_photo}
                     alt="myimage"
-                    width="100%"
+                    width="80%"
                     height="300px"
                 />
 
                 <h2 className="name">
-                    Sabari Hiswara
+                    Sabari Hiswaran
                 </h2>
 
                 <h6 className="role">
@@ -29,7 +31,8 @@ const Header = () => {
 
                 <div className="profiles">
                     <Button
-                        href='https://example.com/'
+                        href='https://discordapp.com/users/868888604695490621'
+                        variant="none"
                         style={
                             {
                                 backgroundColor:"white" ,
@@ -37,17 +40,19 @@ const Header = () => {
                                   width: "115px"
                             }
                          }
+                         target="_blank"
                     >
                     <FontAwesomeIcon
-                    icon={faEnvelope}
+                    icon={faDiscord}
                     style={{marginRight : "10px"}}
                     />
-                        Gmail
+                        Discord
                     </Button>
 
                     <Button
                         href='https://www.linkedin.com/in/sabari-hiswaran-4bba52166/'
                         variant="danger"
+                        target="_blank"
                    >
                      <FontAwesomeIcon
                     icon={faLinkedin}
