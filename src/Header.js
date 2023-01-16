@@ -16,7 +16,7 @@ const Header = () => {
                 />
 
                 <h2 className="name">
-                    Sabari Hiswaran
+                    Sabari Hiswara
                 </h2>
 
                 <h6 className="role">
